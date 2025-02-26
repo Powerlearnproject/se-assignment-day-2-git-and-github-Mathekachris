@@ -94,11 +94,14 @@ Commits ensures that all changes are gathered in a central repository, keeping t
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 Git branches are effectively a pointer to a snapshot of your changes. When you want to add a new feature or fix bug- no matter how big or how small you spawn a new branch to encapsulate your change.
 
-Why is an important feature.
+Why is an important feature
+
 In Git, brnching allows developers to create seperate lines of development from a main codebase, essentially creating a copy of the project at a specific point in time. 
 It also enables multiple team memebers to work on diffrent parts of a project simultaneously without interfering with each other's changes.
 
 Process of creating, using and merging branches;
+
+In a typical software development workflow, creating, using and merging branches involves; staring by creating a new branch from the main codebase for a specific feature or bug fix, making changes on taht branch, then merging those changes back into the main branch once the work is complete: This allows developers to work on diffrent features simultaneously without affecting the stable code on the main branch.
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
