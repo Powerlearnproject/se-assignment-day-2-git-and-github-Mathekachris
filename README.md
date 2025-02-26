@@ -80,8 +80,25 @@ Disadvantages of private repository
 2. No public visibility
    your code is not readily accessible to the wider developer.
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
+Steps involved in making Commit
+1. Create a sample project
+2. Clone the repository
+3. Create a branch and make your changes
+4. Commit and push your changes
+5. Merge your changes
+6. View your changes in Github
 
+What are commit:- A commit records changes to one or more files in your branch. Git assigns each commit to uniqueID, called a SHA or hash.
+
+Commits ensures that all changes are gathered in a central repository, keeping the entire team informed about the changes. Version control; Commit are used to manage diffrent versions of the software. This is especially impportant in large projects where tracking diffrent versions and updates is done through commits.
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
+Git branches are effectively a pointer to a snapshot of your changes. When you want to add a new feature or fix bug- no matter how big or how small you spawn a new branch to encapsulate your change.
+
+Why is an important feature.
+In Git, brnching allows developers to create seperate lines of development from a main codebase, essentially creating a copy of the project at a specific point in time. 
+It also enables multiple team memebers to work on diffrent parts of a project simultaneously without interfering with each other's changes.
+
+Process of creating, using and merging branches;
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
