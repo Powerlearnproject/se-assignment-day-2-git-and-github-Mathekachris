@@ -106,7 +106,12 @@ In a typical software development workflow, creating, using and merging branches
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
+A fork is a new repository that shares code and visibiloity settings with the original upstream repository. Forks are often used to iterate on ideas or changes before thye are proposed back to the upstream repository, such as in open source projects or when a user does not have write access to the upstream repository.
 
+How forking differ from cloning
+
+Forking results in newly created remote repo, whereas cloning results in a local repository tracking the original one. Contrary to that, no down/up stream relation exists between the original repo and its fork.
+Forking is particularly useful when multiple developers want to collaborate on a project or when a developer wants to contribute changes to an existing project. Forking also plays a vital role in enabling collaboration among developers.
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
 
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
