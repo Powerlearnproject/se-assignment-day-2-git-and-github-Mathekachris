@@ -7,11 +7,13 @@
   Why github is a popular tool:
   1. it allows for many people to work on the same and seperate features, for teir changes to be easily reviewed before merging them to the current version
   2. It also stors the history of the project, allowing you to revert to any commit in its history.
-How version control helps in maintaing project intergrity.
+
+How version control helps in maintaing project intergrity:-
 Helps by keeping a detailed history of all changes made to a project, allowing users to easily revert to previuos version if errors occur, identify who made specific changes, and resolves conflicts when multiple people are working on the same files simultaneously, ensuring a consistent and accurate project state.
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 In the command line, navigate to the directory here you would like to create a local clone of your new project. To create a repository for your project, use the gh repo create subcommand. When prompted, select create a new repository on GitHub from scratch and enter the name of your new project.
-Key steps involved
+
+Key steps involved:
 - Go to GitHub.com
 - Select New repository
 - Name your repository
@@ -19,6 +21,7 @@ Key steps involved
 - Choose the repository's visibility
 - Select intialize this repository with a README
 - Click create repository
+- 
 Important Decision
 - Repository visibility
 - Teams and people
